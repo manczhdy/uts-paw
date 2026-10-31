@@ -4,7 +4,7 @@
     "judul": "Pantai Bensam",
     "kategori": "Pantai",
     "kabupaten": "Pesawaran",
-    "hargaTiket": "Rp 25.000 - 250.000",
+    "hargaTiket": "25.000 - 250.000",
     "jamBuka": "Senin - Minggu: 07:00 - 17:00"
   },
   {
@@ -12,7 +12,7 @@
     "judul": "Pantai Mutun",
     "kategori": "Pantai",
     "kabupaten": "Pesawaran",
-    "hargaTiket": "Rp 30.000 - 45.0000",
+    "hargaTiket": "30.000 - 45.0000",
     "jamBuka": "Senin - Minggu: 24 Jam"
   },
   {
@@ -20,7 +20,7 @@
     "judul": "Puncak Mas",
     "kategori": "Bukit",
     "kabupaten": "Bandar Lampung",
-    "hargaTiket": "Rp 20.000",
+    "hargaTiket": "20.000",
     "jamBuka": "Senin - minggu: 08:00 - 23:00"
   },
   {
@@ -36,7 +36,7 @@
     "judul": "Teropong Kota",
     "kategori": "Bukit",
     "kabupaten": "Bandar Lampung",
-    "hargaTiket": "Rp 10.000",
+    "hargaTiket": "  10.000",
     "jamBuka": "Senin - Minggu: 24 Jam"
   },
   {
@@ -44,7 +44,7 @@
     "judul": "Lembah Hijau",
     "kategori": "rekreasi alam",
     "kabupaten": "Bandar Lampung",
-    "hargaTiket": "Rp 15.000",
+    "hargaTiket": "15.000",
     "jamBuka": "Senin - Jumat: 08:00 - 16:00, Sabtu - Minggu: 08: 00 - 17:00"
   },
   {
@@ -52,7 +52,7 @@
     "judul": "Taman Nasional Way Kambas",
     "kategori": "Taman Nasional",
     "kabupaten": "Lampung Timur",
-    "hargaTiket": "Rp 10.000 - 300.000",
+    "hargaTiket": "10.000 - 300.000",
     "jamBuka": "Senin - Minggu: 07:30 - 16:00"
   },
   {
@@ -60,7 +60,7 @@
     "judul": "Pantai Marina",
     "kategori": "Pantai",
     "kabupaten": "Lampung Selatan",
-    "hargaTiket": "Rp 10.000 - 40.000",
+    "hargaTiket": "10.000 - 40.000",
     "jamBuka": "Senin - Minggu: 07:00 - 18:00"
   },
   {
@@ -68,7 +68,7 @@
     "judul": "Bukit Sakura",
     "kategori": "Bukit",
     "kabupaten": "Bandar Lampung",
-    "hargaTiket": "Rp 15.000",
+    "hargaTiket": "15.000",
     "jamBuka": "Senin - minggu: 08:00 - 21:00"
   },
   {
@@ -76,7 +76,7 @@
     "judul": "Pantai Gigi Hiu",
     "kategori": "Pantai",
     "kabupaten": "Tanggamus",
-    "hargaTiket": "Rp 20.000",
+    "hargaTiket": "20.000",
     "jamBuka": "Senin - Minggu: 08:00 - 17:00"
   }
 ]
