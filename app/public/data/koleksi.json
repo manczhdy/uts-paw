@@ -1,10 +1,82 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Pantai Bensam",
+    "kategori": "Pantai",
+    "kabupaten": "Pesawaran",
+    "hargaTiket": "25000 - 250000",
+    "jamBuka": "Senin - Minggu: 07:00 - 17:00"
+  },
+  {
+    "id": "2",
+    "judul": "Pantai Mutun",
+    "kategori": "Pantai",
+    "kabupaten": "Pesawaran",
+    "hargaTiket": "30000 - 450000",
+    "jamBuka": "Senin - Minggu: 24 Jam"
+  },
+  {
+    "id": "3",
+    "judul": "Puncak Mas",
+    "kategori": "Bukit",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 20000,
+    "jamBuka": "Senin - minggu: 08:00 - 23:00"
+  },
+  {
+    "id": "4",
+    "judul": "Kebun Raya ITERA",
+    "kategori": "Wisata Alam",
+    "kabupaten": "ganti sesuai field tema",
+    "hargaTiket": 0,
+    "jamBuka": "Senin - Minggu: 06.30 - 17:30"
+  },
+  {
+    "id": "5",
+    "judul": "Teropong Kota",
+    "kategori": "Bukit",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 10000,
+    "jamBuka": "Senin - Minggu: 24 Jam"
+  },
+  {
+    "id": "6",
+    "judul": "Lembah Hijau",
+    "kategori": "rekreasi alam",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 15000,
+    "jamBuka": "Senin - Jumat: 08:00 - 16:00, Sabtu - Minggu: 08: 00 - 17:00"
+  },
+  {
+    "id": "7",
+    "judul": "Taman Nasional Way Kambas",
+    "kategori": "Taman Nasional",
+    "kabupaten": "Lampung Timur",
+    "hargaTiket": "10000 - 300000",
+    "jamBuka": "Senin - Minggu: 07:30 - 16:00"
+  },
+  {
+    "id": "8",
+    "judul": "Pantai Marina",
+    "kategori": "Pantai",
+    "kabupaten": "Lampung Selatan",
+    "hargaTiket": "10000 - 40000",
+    "jamBuka": "Senin - Minggu: 07:00 - 18:00"
+  },
+  {
+    "id": "9",
+    "judul": "Bukit Sakura",
+    "kategori": "Bukit",
+    "kabupaten": "Bandar Lampung",
+    "hargaTiket": 15000,
+    "jamBuka": "Senin - minggu: 08:00 - 21:00"
+  },
+  {
+    "id": "10",
+    "judul": "Pantai Gigi Hiu",
+    "kategori": "Pantai",
+    "kabupaten": "Tanggamus",
+    "hargaTiket": "20000",
+    "jamBuka": "Senin - Minggu: 08:00 - 17:00"
   }
 ]
