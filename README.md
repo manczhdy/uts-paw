@@ -1,9 +1,9 @@
 # Destinasi Wisata Lampung
 
-Nama: Dimas Alhamdy,
-NIM: 124140165
-Kelas: RB
-Tema: Destinasi Wisata Lampung
+Nama: Dimas Alhamdy <br>
+NIM: 124140165 <br>
+Kelas: RB <br>
+Tema: Destinasi Wisata Lampung <br>
 Deployment: https://manczhdy.github.io/uts-paw/
 
 ## Tampilan Website
@@ -20,9 +20,9 @@ Deployment: https://manczhdy.github.io/uts-paw/
 
 ## Cara Menjalankan Secara lokal
 
-cd app
-npm install
-npm run dev
+cd app <br>
+npm install <br>
+npm run dev <br>
 
 ## Konsep React yang dipakai
 1. Lorem Ipsum
