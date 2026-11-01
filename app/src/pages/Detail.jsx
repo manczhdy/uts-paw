@@ -30,10 +30,12 @@ export default function Detail() {
       <dl>
         <dt>Kategori</dt>
         <dd>{item.kategori}</dd>
-        <dt>Tenggat</dt>
-        <dd>{item.tenggat}</dd>
-        <dt>Prioritas</dt>
-        <dd>{item.prioritas}</dd>
+        <dt>Lokasi</dt>
+        <dd>{item.kabupaten}</dd>
+        <dt>Tiket Masuk</dt>
+        <dd>{item.hargaTiket}</dd>
+        <dt>Jam Operasional</dt>
+        <dd>{item.jamBuka}</dd>
       </dl>
       <div className="aksi">
         <button type="button" onClick={konfirmasiHapus}>
