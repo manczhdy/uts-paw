@@ -8,7 +8,23 @@ Deployment: https://manczhdy.github.io/uts-paw/
 
 ## Tampilan Website
 
-![Tangkapan layar beranda](docs/beranda.png)
+1. Tampilan Beranda
+![Tangkapan layar beranda](image/Tampilan-Beranda.png)
+
+2. Tampilan Koleksi
+![Tangkapan layar koleksi](image/Tampilan-Koleksi.png)
+
+3. Tampilan Tambah
+![Tangkapan layar tambah](image/Tampilan-tambah.png)
+
+4. Tampilan Statistik
+![Tangkapan layar statistik](image/Tampilan-Statistik.png)
+
+5. Tampilan Tentang
+![Tangkapan layar tentang](image/Tampilan-Tentang.png)
+
+6. Tampilan Tidak Ditemukan (404)
+![Tangkapan layar tidak ditemukan](image/Tampilan-404.png)
 
 ## Fitur
 
