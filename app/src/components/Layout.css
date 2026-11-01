@@ -79,7 +79,7 @@
 .daftar-kartu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
+  gap: 1rem;  
 }
 
 .kartu {
@@ -88,9 +88,20 @@
   border-radius: 8px;
 }
 
+.kartu:hover{
+  background-color: rgb(215, 215, 215);
+  border: 1px solid #dcdcdc;
+  border-radius: 8px;
+}
+
 .kartu h3 {
   margin: 0 0 0.25rem;
   font-size: 1.05rem;
+}
+
+.kartu h3 a{
+  text-decoration: underline;
+  color: black;
 }
 
 .kartu p {
