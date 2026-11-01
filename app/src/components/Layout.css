@@ -113,6 +113,12 @@
   font: inherit;
 }
 
+img{
+  display: flex-end;
+  width: 200px;
+  height: 200px;
+}
+
 @media (max-width: 768px) {
   .kepala {
     flex-direction: column;
