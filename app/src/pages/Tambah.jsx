@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Kuliah', tenggat: '', prioritas: 'sedang' }
+const AWAL = { judul: '', kategori: '', kabupaten: '', hargaTiket: '', jamBuka: '' }
 
 export default function Tambah() {
   const { tambah } = useKoleksi()
@@ -19,6 +19,25 @@ export default function Tambah() {
       setGalat('Judul wajib diisi, minimal 3 karakter.')
       return
     }
+
+    if(form.kategori == ''){
+        setGalat('Kategori harus dipilih!')
+        return
+    }
+    if(form.kabupaten == ''){
+      setGalat('Detail daerah harus diisi!')
+      return
+    }
+    if(form.hargaTiket == ''){
+      setGalat('Harus memasukkan harga tiket! Jika tidak dipungut biaya masukkan 0')
+      return
+    }
+
+    if(form.jamBuka == ''){
+      setGalat('Masukkan Waktu Operasional! Dimulai dari hari buka sampai jam buka')
+      return
+    }
+
     tambah({ ...form, judul: form.judul.trim() })
     navigate('/koleksi')
   }
@@ -33,19 +52,29 @@ export default function Tambah() {
 
       <label htmlFor="kategori">Kategori</label>
       <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
-        <option>Kuliah</option>
-        <option>Organisasi</option>
+        <option>Pantai</option>
+        <option>Bukit</option>
+        <option>Wisata Alam</option>
+        <option>Wisata Edukasi</option>
+        <option>Wisata Rohani</option>
       </select>
+      {galat && <p role="alert">{galat}</p>}
 
-      <label htmlFor="tenggat">Tenggat</label>
-      <input id="tenggat" name="tenggat" type="date" value={form.tenggat} onChange={ubah} />
-
-      <label htmlFor="prioritas">Prioritas</label>
-      <select id="prioritas" name="prioritas" value={form.prioritas} onChange={ubah}>
-        <option value="rendah">Rendah</option>
-        <option value="sedang">Sedang</option>
-        <option value="tinggi">Tinggi</option>
+      <label htmlFor="kabupaten">kabupaten</label>
+      <select id="kabupaten" name="kabupaten" value={form.kabupaten} onChange={ubah}>
+        <option>Pesawaran</option>
+        <option>Lampung Selatan</option>
+        <option>Bandar Lampung</option>
       </select>
+      {galat && <p role="alert">{galat}</p>}
+
+      <label htmlFor="hargaTiket">Harga Tiket Masuk (Rp) </label>
+      <input id="hargaTiket" name="hargaTiket" type="number" min="0" value={form.hargaTiket} onChange={ubah}/>
+      {galat && <p role="alert">{galat}</p>}
+
+      <label htmlFor="jamBuka">Jam jamBuka</label>
+      <input id="jamBuka" name="jamBuka" value={form.jamBuka} onChange={ubah} required />
+      {galat && <p role="alert">{galat}</p>}
 
       <button type="submit">Simpan</button>
     </form>
