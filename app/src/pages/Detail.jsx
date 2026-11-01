@@ -30,11 +30,11 @@ export default function Detail() {
       <dl>
         <dt>Kategori</dt>
         <dd>{item.kategori}</dd>
-        <dt>Lokasi</dt>
+        <dt>Kabupaten/Kota</dt>
         <dd>{item.kabupaten}</dd>
-        <dt>Tiket Masuk</dt>
+        <dt>Harga Tiket(Rp)</dt>
         <dd>{item.hargaTiket}</dd>
-        <dt>Jam Operasional</dt>
+        <dt>Jam Buka</dt>
         <dd>{item.jamBuka}</dd>
       </dl>
       <div className="aksi">
